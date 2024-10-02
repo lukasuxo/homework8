@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF2F8;
+}
+.container{
+    display: grid;
+    width: 70%;
+    height: 80vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+}
+.item{
+    width: 360px;
+    height: 528px;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+}
+.ord{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    align-content: center;
+    width: 114px;
+    height: 44px;
+    border-radius: 4px;
+    background: var(--Cards-4-action-color, #2ECC71);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2.52px;
+  
+
+}
+.h{
+    color: var(--Heading-text, #081F32);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    letter-spacing: 0.24px;
+    padding-top: 32px;
+    padding-left: 24px;
+}
+.p{
+    color: var(--Additional-text, #6E798C);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 24px;
+    padding-top: 24px; 
+}
+.span{
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; 
+    padding-left: 24px;
+    padding-top: 24px;
+    justify-content: space-around;
+
+}
+
