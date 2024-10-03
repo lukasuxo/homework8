@@ -26,6 +26,47 @@ body{
     border-radius: 16px;
     background: var(--White, #FFF);
 }
+.sv{
+    position: relative;
+}
+.icon{
+    position: relative; 
+}
+.icn7{
+    position: absolute;
+    left: 311px;
+    top: 23px;  
+}
+.dei1{
+    position: absolute;
+    left: 284px;
+    top: 34px;
+}
+.dei2{
+    position: absolute;
+    left: 312px;
+    top: 34px;
+}
+.dei3{
+    position: absolute;
+    left: 251px;
+    top: 34px;
+}
+.dei4{
+    position: absolute;
+    left: 284px;
+    top: 34px;
+}
+.dei5{
+    position: absolute;
+    left: 317px;
+    top: 34px;  
+}
+.dei6{
+    position: absolute;
+    left: 317px;
+    top: 34px;    
+}
 .ord{
     display: flex;
     flex-direction: column;
